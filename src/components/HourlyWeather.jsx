@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from '@/components/ui/card';
+import Card from '../ui/card';
 import { getWeatherIcon } from '../utils/weatherUtils';
 
 const HourlyWeather = ({ data, isEvening }) => (
