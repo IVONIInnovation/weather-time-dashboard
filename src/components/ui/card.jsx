@@ -1,8 +1,8 @@
 import React from 'react';
 
-export const Card = ({ className, children }) => {
+const Card = ({ className, children }) => {
   return (
-    <div className={`rounded-lg shadow ${className}`}>
+    <div className={`rounded-lg shadow ${className || ''}`}>
       {children}
     </div>
   );
