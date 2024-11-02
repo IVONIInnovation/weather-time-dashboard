@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Sun, Moon, RefreshCw } from 'lucide-react';
-import { Card } from '@/components/ui/card';
+import Card from '../ui/card';
 import CityTimeCard from './CityTimeCard';
 import LanguageSelector from './LanguageSelector';
 import { translations, CACHE_KEY, CACHE_TIMESTAMP_KEY } from '../utils/constants';
